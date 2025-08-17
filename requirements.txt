@@ -1,0 +1,25 @@
+1. List Dependencies
+Include all Python packages your project needs. For example:
+streamlit
+pandas
+matplotlib
+scikit-learn
+2. Specify Versions
+To avoid compatibility issues, pin versions:
+streamlit==1.29.0
+pandas>=1.5.0
+3. Add Comments
+You can annotate why certain packages are needed:
+# For UI
+streamlit==1.29.0
+
+# For data handling
+pandas>=1.5.0
+4. Include Optional Tools
+If you used tools like openai, seaborn, or plotly, add them:
+openai
+seaborn
+plotly
+5. Install with One Command
+Once your file is ready, install everything using:
+pip install -r requirements.txt
